@@ -5,12 +5,14 @@
   "main": "cloud/smart-home-provider-cloud.js",
   "scripts": {
     "start": "node cloud/smart-home-provider-cloud.js smart-home-pub=\"https://smart-home-test.appspot.com\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "",
   "license": "ISC",
-  "engines" : {
-    "node" : ">=6.2.2"
+  "engines": {
+    "node": ">=6.2.2"
   },
   "dependencies": {
     "actions-on-google": "^1.0.3",
@@ -21,6 +23,8 @@
     "express-session": "^1.15.0",
     "morgan": "^1.7.0",
     "node-fetch": "^1.6.3",
-    "ngrok": "^2.2.5"
-  }
+    "ngrok": "^2.2.5",
+    "snyk": "^1.161.1"
+  },
+  "snyk": true
 }
