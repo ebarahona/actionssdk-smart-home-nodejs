@@ -13,7 +13,7 @@
     "node" : ">=6.2.2"
   },
   "dependencies": {
-    "actions-on-google": "^1.0.3",
+    "actions-on-google": "^2.0.0",
     "oauth2-server": "^2.4.0",
     "body-parser": "^1.15.2",
     "ejs": "^1.0.0",
