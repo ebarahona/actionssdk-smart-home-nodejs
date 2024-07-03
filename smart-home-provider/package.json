@@ -21,6 +21,6 @@
     "express-session": "^1.15.0",
     "morgan": "^1.7.0",
     "node-fetch": "^1.6.3",
-    "ngrok": "^2.2.5"
+    "ngrok": "^3.0.0"
   }
 }
